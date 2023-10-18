@@ -1,0 +1,212 @@
+body{
+font-family: 'Karla', sans-serif;
+margin: 0;
+}
+
+.left, .right{
+    width: 50%;
+    padding: 15px 20px;
+}
+
+.left{
+    transition: 2s;
+    background-color: #232323;
+    color: white;
+        }
+
+.right{
+    transition: 2s;
+    background-color: #E5E5E5;
+    color: #232323;
+}
+   
+.left-hov{
+    transition: 2s;
+    background-color: #E5E5E5;
+    color: #232323;
+}
+
+.right-hov{
+    transition: 2s;
+    background-color: #232323;
+    color: white;
+}
+
+h1{
+        position: relative;
+        z-index: 99999;
+        font-size: 78px;
+        margin: 10px 0;
+    }
+
+
+    #educ, #expr{
+        cursor:pointer;
+        }
+
+        h1, h4{
+            font-family: 'Martian Mono', monospace;
+            text-transform:uppercase;
+        }
+        
+
+p{
+    line-height: 1.3;
+}
+
+
+
+.in-left{
+    width: 30%;
+    }
+
+    .in-left p{
+        font-weight: 600;
+    }
+
+    .in-right{
+        margin-left: 30px;
+        width:40%
+    }
+img{
+    width:200px;
+    height: 200px;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.up-left, .up-right{
+display: flex;
+flex-direction: row;
+}
+
+
+.left-up, .right-up{
+    width: 50%;
+}
+ul{
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+li{
+    list-style-type: none;
+   
+}
+.li-date{
+    font-size: 14px;
+    margin-top: 16px;
+    
+}
+
+.li-pos{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.li-skill{
+    font-size: 16px;
+    margin-top:10px;
+}
+.li-comm{
+        font-size: 14px;
+    margin-top: 5px;
+
+}
+.comm-hide{
+    display: none;
+}
+
+.hide-ed{
+    display: none;
+}
+
+
+
+
+.contacts{
+    padding: 15px 20px;
+}
+
+.contacts p{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    
+}
+
+.photo{
+    margin-bottom: 45px;
+}
+
+.i-hide{
+    display: none;
+}
+
+#img-clk{
+    font-size: 120px;
+    font-family: 'Martian Mono', monospace;
+    margin: 0;
+    cursor: pointer;
+}
+.down-left p{
+    width:80%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    
+}
+
+#command, #skills, #serious{
+    cursor: pointer;
+}
+
+.down-right h4{
+    margin-top: 20px;
+}
+
+@media  screen and (max-width: 980px) {
+    .main, .up-left, .up-right{
+        flex-direction: column;
+        box-sizing: content-box;
+    }
+
+    .left, .right, .left-up, .right-up{
+        width: 100%;
+        /* padding-right: 20%; */
+    }
+    .in-left, .in-right{
+        width: 80%;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+
+}
+
+@media  screen and (max-width: 480px){
+    h1{
+        font-size: 32px;
+    }
+
+    img{
+        display: none;
+    }
+    .main{
+font-size: 14px;
+    }
+
+}
